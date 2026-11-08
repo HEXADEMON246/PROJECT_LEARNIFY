@@ -1,3 +1,4 @@
+
 import { courses } from "../data/data";
 
 function Courses() {
@@ -21,9 +22,7 @@ function Courses() {
               <article className="course-card" key={course.title}>
                 <div className={`course-cover ${course.color}`}>
                   <span className="course-icon">
-                    <Icon size={24} />
-                  </span>
-
+                    <Icon size={24} /></span>
                   <span className="course-category">
                     {course.category}
                   </span>
@@ -31,7 +30,7 @@ function Courses() {
 
                 <div className="course-details">
                   <div className="course-meta">
-                    <span>{course.duration}</span>
+                    <span> {course.duration}</span>
                     <span>{course.level}</span>
                   </div>
 
@@ -44,8 +43,7 @@ function Courses() {
                   <a href="#contact">Learn more →</a>
                 </div>
               </article>
-            );
-          })}
+            );    })}
         </div>
 
         <div className="view-all">
