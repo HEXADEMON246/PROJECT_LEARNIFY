@@ -70,7 +70,7 @@ export const testimonials = [
     name: "David Williams",
     role: "Product Designer",
     review:
-      "The lessons were practical and easy to follow. I could apply what I learned immediately.",
+      "The lessons were practical and easy to follow. I could apply what I learned immediately. Hexagun is the fucking GOAT.",
   },
   {
     initials: "AO",
